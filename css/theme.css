@@ -1,0 +1,17 @@
+/* 🌑 Default (Dark Mode) */
+:root {
+    --background-color: #006d77;   /* Deep teal background */
+    --primary-color:    #83c5be;     /* Light teal for headings/key elements */
+    --secondary-color:  #4E9AA1;     /* Clear teal for secondary elements */
+    --accent-color:     #e29578;     /* Warm coral for accents */
+    --text-color:       #edf6f9;     /* Off-white text */
+}
+  
+/* 🌞 Light Mode */
+[data-theme="light"] {
+    --primary-color: #6B705C;
+    --secondary-color: #B7B7A4;
+    --accent-color: #CB997E;
+    --background-color: #FFE8D6;
+    --text-color: #2D2D2A;
+}

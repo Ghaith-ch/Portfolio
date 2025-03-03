@@ -1,0 +1,910 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title data-i18n="title_site">Ghaith Portfolio</title>
+  <!-- SEO Meta -->
+  <meta name="description" content="Ghaith's portfolio showcasing web development projects, skills, and contact information." data-i18n="meta_description">
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <!-- FontAwesome (Icons) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+  <!-- Link to CSS Files -->
+  <link rel="stylesheet" href="css/theme.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header id="header">
+    <div class="logo">
+      <a href="#header" class="logo">
+        <img src="images/logo.png" alt="Ghaith Logo">
+      </a>
+    </div>
+    <nav class="navbar">
+      <ul>
+        <li><a href="#header" class="nav-link" data-i18n="nav_home">Home</a></li>
+        <li><a href="#about" class="nav-link" data-i18n="nav_about">About</a></li>
+        <li><a href="#skills" class="nav-link" data-i18n="nav_skills">Skills</a></li>
+        <li><a href="#projects" class="nav-link" data-i18n="nav_projects">Projects</a></li>
+        <li><a href="#contact" class="nav-link" data-i18n="nav_contact">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="header-right">
+      <button class="theme-toggle">
+        <i class="fas fa-moon"></i>
+        <i class="fas fa-sun"></i>
+      </button>
+      <div class="language-button">
+        <span data-lang="sv">SV</span> | <span data-lang="en">EN</span>
+      </div>
+    </div>
+    <button class="menu-toggle">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </button>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <video autoplay loop muted playsinline poster="images/vv.jpg" class="hero-video">
+      <source src="videos/hero.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <h2 class="hero-welcome" data-i18n="hero_welcome">Hello, I am</h2>
+      <h1 class="hero-name">Ghaith</h1>
+      <div class="subtitle-wrapper">
+        <div class="line top-line"></div>
+        <p class="hero-subtitle" data-i18n="hero_subtitle">System &amp; Web Developer</p>
+        <div class="line bottom-line"></div>
+      </div>
+    </div>
+    <div class="pill">
+      <a href="#about"><i class="fas fa-angle-double-down"></i></a>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about" id="about">
+    <div class="about-text">
+      <h2 data-i18n="about_heading">Hi 👋! I am <span class="highlight">Ghaith</span></h2>
+      <p data-i18n="about_paragraph">
+        I am a highly motivated and ambitious Developer 🚀 with a strong passion for problem-solving and continuous learning. Driven by curiosity and a desire to create meaningful digital experiences, I thrive in dynamic environments where I can challenge myself and grow. I take pride in my ability to approach complex challenges with a structured and creative mindset, always striving for excellence. I embrace new opportunities with enthusiasm and am always eager to refine my skills. Collaboration and innovation are at the heart of everything I do, and I enjoy working with like-minded individuals to turn ideas into reality. My goal is not just to build, but to innovate, improve, and leave a lasting impact.
+      </p>
+
+      <a href="docs/CV-en.pdf" class="resume-btn" target="_blank" data-i18n="about_resume" data-i18n-href="about_resume_link">View Resume</a>
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/in/ghaith-chikh-alchabab-821502252/" target="_blank">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/Ghaith-ch" target="_blank">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+    </div>
+    <div class="about-image">
+      <img src="images/about.jpg" alt="Developer Image">
+    </div>
+    <div class="pill">
+      <a href="#skills"><i class="fas fa-angle-double-down"></i></a>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="skills">
+    <h1 data-i18n="skills_heading">I Work with</h1>
+    <div class="skills-container">
+      <div class="skills-wrapper">
+        <div class="skill">
+          <div class="skill-circle">
+            <img src="/images/skills/csharp-original.svg" alt="C#">
+            <p>C#</p>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-circle">
+            <img src="images/skills/dot-net-original.svg" alt="Asp.Net">
+            <p>Asp.Net</p>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-circle">
+            <img src="images/skills/microsoftsqlserver-original.svg" alt="Microsoft SQL Server">
+            <p>Microsoft SQL Server</p>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-circle">
+            <img src="images/skills/html5-original.svg" alt="HTML">
+            <p>HTML</p>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-circle">
+            <img src="images/skills/css3-original.svg" alt="CSS">
+            <p>CSS</p>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-circle">
+            <img src="images/skills/javascript-original.svg" alt="JavaScript">
+            <p>JavaScript</p>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-circle">
+            <img src="images/skills/typescript-original.svg" alt="TypeScript">
+            <p>TypeScript</p>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-circle">
+            <img src="images/skills/git-original.svg" alt="Git">
+            <p>Git</p>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-circle">
+            <img src="images/skills/github-original.svg" alt="Github">
+            <p>Github</p>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-circle">
+            <img src="images/skills/sass-original.svg" alt="Sass">
+            <p>Sass</p>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-circle">
+            <img src="images/skills/tailwindcss-original.svg" alt="Tailwind">
+            <p>Tailwind</p>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-circle">
+            <img src="images/skills/bootstrap-original.svg" alt="Bootstrap">
+            <p>Bootstrap</p>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-circle">
+            <img src="images/skills/postman-original.svg" alt="Postman">
+            <p>Postman</p>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-circle">
+            <img src="images/skills/visualstudio-original.svg" alt="Visual Studio">
+            <p>Visual Studio</p>
+          </div>
+        </div>
+        <div class="skill">
+          <div class="skill-circle">
+            <img src="images/skills/vscode-original.svg" alt="Visual Studio Code">
+            <p>Visual Studio Code</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pill">
+      <a href="#projects"><i class="fas fa-angle-double-down"></i></a>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <h1 data-i18n="projects_heading">Projects</h1>
+    <div class="project-filters">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="html-css">Html+Css</button>
+      <button class="filter-btn" data-filter="javascript">JavaScript</button>
+      <button class="filter-btn" data-filter="asp-net">ASP.Net</button>
+    </div>
+    <div class="projects-container">
+      <!-- Project 1: Big Dashboard website -->
+      <div class="project html-css">
+        <div class="card">
+          <div class="card-header" style="background-image: url('images/Html&Css/Big Dashboard website.png');"></div>
+          <div class="card-bottom">
+            <div class="read-more">
+              <p>Big Dashboard website</p>
+              <i class="fas fa-caret-up clignot"></i>
+            </div>
+            <div class="card-body">
+              <div class="card-body-box">
+                <h4 class="card-body-title">Big Dashboard website</h4>
+                <p class="card-body-desc" data-i18n="project_big_dashboard_desc">
+                  An admin dashboard with side navigation and detailed stats panels.
+                </p>
+                <div class="card-body-action">
+                  <a class="btn-border" href="#" target="_blank" data-i18n="btn_code"><i class="fas fa-code"></i> Code</a>
+                  <a class="btn-border" href="#" target="_blank" data-i18n="btn_website"><i class="fas fa-link"></i> Website</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Project 2: Cosmo Junkie -->
+      <div class="project html-css">
+        <div class="card">
+          <div class="card-header" style="background-image: url('images/Html&Css/Cosmo Junkie.png');"></div>
+          <div class="card-bottom">
+            <div class="read-more">
+              <p>Cosmo Junkie</p>
+              <i class="fas fa-caret-up clignot"></i>
+            </div>
+            <div class="card-body">
+              <div class="card-body-box">
+                <h4 class="card-body-title">Cosmo Junkie</h4>
+                <p class="card-body-desc" data-i18n="project_cosmo_junkie_desc">
+                  A cosmic-themed portfolio featuring space projects and a vibrant dark UI.
+                </p>
+                <div class="card-body-action">
+                  <a class="btn-border" href="#" target="_blank" data-i18n="btn_code"><i class="fas fa-code"></i> Code</a>
+                  <a class="btn-border" href="#" target="_blank" data-i18n="btn_website"><i class="fas fa-link"></i> Website</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Project 3: Green IT -->
+      <div class="project html-css">
+        <div class="card">
+          <div class="card-header" style="background-image: url('images/Html&Css/Kasper.png');"></div>
+          <div class="card-bottom">
+            <div class="read-more">
+              <p>Green IT</p>
+              <i class="fas fa-caret-up clignot"></i>
+            </div>
+            <div class="card-body">
+              <div class="card-body-box">
+                <h4 class="card-body-title">Green IT Solutions</h4>
+                <p class="card-body-desc" data-i18n="project_green_it_desc">
+                  Showcasing services, works, and testimonials under a green-themed layout.
+                </p>
+                <div class="card-body-action">
+                  <a class="btn-border" href="#" target="_blank" data-i18n="btn_code"><i class="fas fa-code"></i> Code</a>
+                  <a class="btn-border" href="#" target="_blank" data-i18n="btn_website"><i class="fas fa-link"></i> Website</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Project 4: Hello There -->
+      <div class="project html-css">
+        <div class="card">
+          <div class="card-header" style="background-image: url('images/Html&Css/Hello There.png');"></div>
+          <div class="card-bottom">
+            <div class="read-more">
+              <p>Hello There</p>
+              <i class="fas fa-caret-up clignot"></i>
+            </div>
+            <div class="card-body">
+              <div class="card-body-box">
+                <h4 class="card-body-title">Hello There</h4>
+                <p class="card-body-desc" data-i18n="project_hello_there_desc">
+                  A minimal agency landing page with smooth scrolling and clean design.
+                </p>
+                <div class="card-body-action">
+                  <a class="btn-border" href="#" target="_blank" data-i18n="btn_code"><i class="fas fa-code"></i> Code</a>
+                  <a class="btn-border" href="#" target="_blank" data-i18n="btn_website"><i class="fas fa-link"></i> Website</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Project 5: ProSoft -->
+      <div class="project html-css">
+        <div class="card">
+          <div class="card-header" style="background-image: url('images/Html&Css/ProSoft.png');"></div>
+          <div class="card-bottom">
+            <div class="read-more">
+              <p>ProSoft</p>
+              <i class="fas fa-caret-up clignot"></i>
+            </div>
+            <div class="card-body">
+              <div class="card-body-box">
+                <h4 class="card-body-title">ProSoft</h4>
+                <p class="card-body-desc" data-i18n="project_prosoft_desc">
+                  A multi-section software company site highlighting services, portfolio etc.
+                </p>
+                <div class="card-body-action">
+                  <a class="btn-border" href="#" target="_blank" data-i18n="btn_code"><i class="fas fa-code"></i> Code</a>
+                  <a class="btn-border" href="#" target="_blank" data-i18n="btn_website"><i class="fas fa-link"></i> Website</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Project 6: Loruki -->
+      <div class="project html-css">
+        <div class="card">
+          <div class="card-header" style="background-image: url('images/Html&Css/Loruki.png');"></div>
+          <div class="card-bottom">
+            <div class="read-more">
+              <p>Loruki</p>
+              <i class="fas fa-caret-up clignot"></i>
+            </div>
+            <div class="card-body">
+              <div class="card-body-box">
+                <h4 class="card-body-title">Loruki</h4>
+                <p class="card-body-desc" data-i18n="project_loruki_desc">
+                  A cloud hosting platform website with a focus on deployments.
+                </p>
+                <div class="card-body-action">
+                  <a class="btn-border" href="#" target="_blank" data-i18n="btn_code"><i class="fas fa-code"></i> Code</a>
+                  <a class="btn-border" href="#" target="_blank" data-i18n="btn_website"><i class="fas fa-link"></i> Website</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Project 7: Edutraf -->
+      <div class="project html-css">
+        <div class="card">
+          <div class="card-header" style="background-image: url('images/Html&Css/Education.png');"></div>
+          <div class="card-bottom">
+            <div class="read-more">
+              <p>Edutraf</p>
+              <i class="fas fa-caret-up clignot"></i>
+            </div>
+            <div class="card-body">
+              <div class="card-body-box">
+                <h4 class="card-body-title">Edutraf</h4>
+                <p class="card-body-desc" data-i18n="project_edutraf_desc">
+                  A modern university website featuring courses, facilities, and student testimonials.
+                </p>
+                <div class="card-body-action">
+                  <a class="btn-border" href="#" target="_blank" data-i18n="btn_code"><i class="fas fa-code"></i> Code</a>
+                  <a class="btn-border" href="#" target="_blank" data-i18n="btn_website"><i class="fas fa-link"></i> Website</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Project 8: Mike Smith Portfolio -->
+      <div class="project html-css">
+        <div class="card">
+          <div class="card-header" style="background-image: url('images/Html&Css/Sass.png');"></div>
+          <div class="card-bottom">
+            <div class="read-more">
+              <p>Mike Smith Portfolio</p>
+              <i class="fas fa-caret-up clignot"></i>
+            </div>
+            <div class="card-body">
+              <div class="card-body-box">
+                <h4 class="card-body-title">Mike Smith Portfolio</h4>
+                <p class="card-body-desc" data-i18n="project_mike_portfolio_desc">
+                  A personal portfolio featuring hero section, about, and contact for a web developer.
+                </p>
+                <div class="card-body-action">
+                  <a class="btn-border" href="#" target="_blank" data-i18n="btn_code"><i class="fas fa-code"></i> Code</a>
+                  <a class="btn-border" href="#" target="_blank" data-i18n="btn_website"><i class="fas fa-link"></i> Website</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Project 9: YouTube Clone -->
+      <div class="project html-css">
+        <div class="card">
+          <div class="card-header" style="background-image: url('images/Html&Css/Youtube.png');"></div>
+          <div class="card-bottom">
+            <div class="read-more">
+              <p>YouTube Clone</p>
+              <i class="fas fa-caret-up clignot"></i>
+            </div>
+            <div class="card-body">
+              <div class="card-body-box">
+                <h4 class="card-body-title">YouTube Clone</h4>
+                <p class="card-body-desc" data-i18n="project_youtube_clone_desc">
+                  A mock YouTube layout with video cards, subscription list, and a responsive design.
+                </p>
+                <div class="card-body-action">
+                  <a class="btn-border" href="#" target="_blank" data-i18n="btn_code"><i class="fas fa-code"></i> Code</a>
+                  <a class="btn-border" href="#" target="_blank" data-i18n="btn_website"><i class="fas fa-link"></i> Website</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Project 10: Special Template -->
+      <div class="project javascript">
+        <div class="card">
+          <div class="card-header" style="background-image: url('images/JavaScript/Special Template.png');"></div>
+          <div class="card-bottom">
+            <div class="read-more">
+              <p>Special Template</p>
+              <i class="fas fa-caret-up clignot"></i>
+            </div>
+            <div class="card-body">
+              <div class="card-body-box">
+                <h4 class="card-body-title">Special Template</h4>
+                <p class="card-body-desc" data-i18n="project_special_template_desc">
+                  A feature-rich JS template with multiple sections for services, gallery, and contact.
+                </p>
+                <div class="card-body-action">
+                  <a class="btn-border" href="#" target="_blank" data-i18n="btn_code"><i class="fas fa-code"></i> Code</a>
+                  <a class="btn-border" href="#" target="_blank" data-i18n="btn_website"><i class="fas fa-link"></i> Website</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Project 11: Social media website -->
+      <div class="project javascript">
+        <div class="card">
+          <div class="card-header" style="background-image: url('images/JavaScript/Social media.png');"></div>
+          <div class="card-bottom">
+            <div class="read-more">
+              <p>Social media website</p>
+              <i class="fas fa-caret-up clignot"></i>
+            </div>
+            <div class="card-body">
+              <div class="card-body-box">
+                <h4 class="card-body-title">Social media website</h4>
+                <p class="card-body-desc" data-i18n="project_social_media_desc">
+                  A JavaScript gallery showcasing photos, captions, and dynamic user posts.
+                </p>
+                <div class="card-body-action">
+                  <a class="btn-border" href="#" target="_blank" data-i18n="btn_code"><i class="fas fa-code"></i> Code</a>
+                  <a class="btn-border" href="#" target="_blank" data-i18n="btn_website"><i class="fas fa-link"></i> Website</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Project 12: Top 10 Tracks -->
+      <div class="project javascript">
+        <div class="card">
+          <div class="card-header" style="background-image: url('images/JavaScript/Top 10 tracks.png');"></div>
+          <div class="card-bottom">
+            <div class="read-more">
+              <p>Top 10 Tracks</p>
+              <i class="fas fa-caret-up clignot"></i>
+            </div>
+            <div class="card-body">
+              <div class="card-body-box">
+                <h4 class="card-body-title">Top 10 Tracks</h4>
+                <p class="card-body-desc" data-i18n="project_top10_tracks_desc">
+                  Search your favorite artist, then fetch and display their top tracks.
+                </p>
+                <div class="card-body-action">
+                  <a class="btn-border" href="#" target="_blank" data-i18n="btn_code"><i class="fas fa-code"></i> Code</a>
+                  <a class="btn-border" href="#" target="_blank" data-i18n="btn_website"><i class="fas fa-link"></i> Website</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Project 13: Hangman Game -->
+      <div class="project javascript">
+        <div class="card">
+          <div class="card-header" style="background-image: url('images/JavaScript/Hangman Game.png');"></div>
+          <div class="card-bottom">
+            <div class="read-more">
+              <p>Hangman Game</p>
+              <i class="fas fa-caret-up clignot"></i>
+            </div>
+            <div class="card-body">
+              <div class="card-body-box">
+                <h4 class="card-body-title">Hangman Game</h4>
+                <p class="card-body-desc" data-i18n="project_hangman_game_desc">
+                  Classic hangman with random words, hints, and a sleek interface.
+                </p>
+                <div class="card-body-action">
+                  <a class="btn-border" href="#" target="_blank" data-i18n="btn_code"><i class="fas fa-code"></i> Code</a>
+                  <a class="btn-border" href="#" target="_blank" data-i18n="btn_website"><i class="fas fa-link"></i> Website</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Project 14: Quiz Application -->
+      <div class="project javascript">
+        <div class="card">
+          <div class="card-header" style="background-image: url('images/JavaScript/Quiz Application.png');"></div>
+          <div class="card-bottom">
+            <div class="read-more">
+              <p>Quiz Application</p>
+              <i class="fas fa-caret-up clignot"></i>
+            </div>
+            <div class="card-body">
+              <div class="card-body-box">
+                <h4 class="card-body-title">Quiz Application</h4>
+                <p class="card-body-desc" data-i18n="project_quiz_application_desc">
+                  Select a category and test your knowledge with multiple-choice questions.
+                </p>
+                <div class="card-body-action">
+                  <a class="btn-border" href="#" target="_blank" data-i18n="btn_code"><i class="fas fa-code"></i> Code</a>
+                  <a class="btn-border" href="#" target="_blank" data-i18n="btn_website"><i class="fas fa-link"></i> Website</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Project 15: Memory Game -->
+      <div class="project javascript">
+        <div class="card">
+          <div class="card-header" style="background-image: url('images/JavaScript/Memory Game.png');"></div>
+          <div class="card-bottom">
+            <div class="read-more">
+              <p>Memory Game</p>
+              <i class="fas fa-caret-up clignot"></i>
+            </div>
+            <div class="card-body">
+              <div class="card-body-box">
+                <h4 class="card-body-title">Memory Game</h4>
+                <p class="card-body-desc" data-i18n="project_memory_game_desc">
+                  Flip cards to find matches while keeping track of mistakes and time.
+                </p>
+                <div class="card-body-action">
+                  <a class="btn-border" href="#" target="_blank" data-i18n="btn_code"><i class="fas fa-code"></i> Code</a>
+                  <a class="btn-border" href="#" target="_blank" data-i18n="btn_website"><i class="fas fa-link"></i> Website</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Project 16: Image Editor -->
+      <div class="project javascript">
+        <div class="card">
+          <div class="card-header" style="background-image: url('images/JavaScript/Image Editor app.png');"></div>
+          <div class="card-bottom">
+            <div class="read-more">
+              <p>Image Editor</p>
+              <i class="fas fa-caret-up clignot"></i>
+            </div>
+            <div class="card-body">
+              <div class="card-body-box">
+                <h4 class="card-body-title">Image Editor App</h4>
+                <p class="card-body-desc" data-i18n="project_image_editor_desc">
+                  Upload and apply filters like brightness, contrast, and grayscale on the fly.
+                </p>
+                <div class="card-body-action">
+                  <a class="btn-border" href="#" target="_blank" data-i18n="btn_code"><i class="fas fa-code"></i> Code</a>
+                  <a class="btn-border" href="#" target="_blank" data-i18n="btn_website"><i class="fas fa-link"></i> Website</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Project 17: CRUD Management -->
+      <div class="project javascript">
+        <div class="card">
+          <div class="card-header" style="background-image: url('images/JavaScript/CRUD app.png');"></div>
+          <div class="card-bottom">
+            <div class="read-more">
+              <p>CRUD Management</p>
+              <i class="fas fa-caret-up clignot"></i>
+            </div>
+            <div class="card-body">
+              <div class="card-body-box">
+                <h4 class="card-body-title">CRUD Management System</h4>
+                <p class="card-body-desc" data-i18n="project_crud_management_desc">
+                  Create, read, update, and delete items with real-time filtering and totals.
+                </p>
+                <div class="card-body-action">
+                  <a class="btn-border" href="#" target="_blank" data-i18n="btn_code"><i class="fas fa-code"></i> Code</a>
+                  <a class="btn-border" href="#" target="_blank" data-i18n="btn_website"><i class="fas fa-link"></i> Website</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Project 18: Speed Typing Challenge -->
+      <div class="project javascript">
+        <div class="card">
+          <div class="card-header" style="background-image: url('images/JavaScript/Typing Speed Game.png');"></div>
+          <div class="card-bottom">
+            <div class="read-more">
+              <p>Speed Typing Challenge</p>
+              <i class="fas fa-caret-up clignot"></i>
+            </div>
+            <div class="card-body">
+              <div class="card-body-box">
+                <h4 class="card-body-title">Speed Typing Challenge</h4>
+                <p class="card-body-desc" data-i18n="project_speed_typing_desc">
+                  Type words under a time limit, track your accuracy and speed, beat your high score!
+                </p>
+                <div class="card-body-action">
+                  <a class="btn-border" href="#" target="_blank" data-i18n="btn_code"><i class="fas fa-code"></i> Code</a>
+                  <a class="btn-border" href="#" target="_blank" data-i18n="btn_website"><i class="fas fa-link"></i> Website</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Project 19: Drag & Drop Tasks -->
+      <div class="project javascript">
+        <div class="card">
+          <div class="card-header" style="background-image: url('images/JavaScript/DragDrop Task Manager.png');"></div>
+          <div class="card-bottom">
+            <div class="read-more">
+              <p>Drag &amp; Drop Tasks</p>
+              <i class="fas fa-caret-up clignot"></i>
+            </div>
+            <div class="card-body">
+              <div class="card-body-box">
+                <h4 class="card-body-title">Drag &amp; Drop Task Manager</h4>
+                <p class="card-body-desc" data-i18n="project_dragdrop_desc">
+                  Organize tasks into columns and move them easily using drag-and-drop.
+                </p>
+                <div class="card-body-action">
+                  <a class="btn-border" href="#" target="_blank" data-i18n="btn_code"><i class="fas fa-code"></i> Code</a>
+                  <a class="btn-border" href="#" target="_blank" data-i18n="btn_website"><i class="fas fa-link"></i> Website</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Project 20: Pizza Ordering App -->
+      <div class="project javascript">
+        <div class="card">
+          <div class="card-header" style="background-image: url('images/JavaScript/App for serveringspersonal.png');"></div>
+          <div class="card-bottom">
+            <div class="read-more">
+              <p>Pizza Ordering App</p>
+              <i class="fas fa-caret-up clignot"></i>
+            </div>
+            <div class="card-body">
+              <div class="card-body-box">
+                <h4 class="card-body-title">Pizza Ordering App</h4>
+                <p class="card-body-desc" data-i18n="project_pizza_ordering_desc">
+                  A dynamic food ordering system with category filtering and cart functionality.
+                </p>
+                <div class="card-body-action">
+                  <a class="btn-border" href="#" target="_blank" data-i18n="btn_code"><i class="fas fa-code"></i> Code</a>
+                  <a class="btn-border" href="#" target="_blank" data-i18n="btn_website"><i class="fas fa-link"></i> Website</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Project 21: TicTacToe Game -->
+      <div class="project javascript">
+        <div class="card">
+          <div class="card-header" style="background-image: url('images/JavaScript/Tic Tac Toe.png');"></div>
+          <div class="card-bottom">
+            <div class="read-more">
+              <p>TicTacToe Game</p>
+              <i class="fas fa-caret-up clignot"></i>
+            </div>
+            <div class="card-body">
+              <div class="card-body-box">
+                <h4 class="card-body-title">TicTacToe Game</h4>
+                <p class="card-body-desc" data-i18n="project_tictactoe_desc">
+                  Enter player nicknames and compete in a classic TicTacToe match with time limits.
+                </p>
+                <div class="card-body-action">
+                  <a class="btn-border" href="#" target="_blank" data-i18n="btn_code"><i class="fas fa-code"></i> Code</a>
+                  <a class="btn-border" href="#" target="_blank" data-i18n="btn_website"><i class="fas fa-link"></i> Website</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Project 22: Simple ToDo App -->
+      <div class="project javascript">
+        <div class="card">
+          <div class="card-header" style="background-image: url('images/JavaScript/To Do List.png');"></div>
+          <div class="card-bottom">
+            <div class="read-more">
+              <p>Simple ToDo App</p>
+              <i class="fas fa-caret-up clignot"></i>
+            </div>
+            <div class="card-body">
+              <div class="card-body-box">
+                <h4 class="card-body-title">Simple ToDo App</h4>
+                <p class="card-body-desc" data-i18n="project_todo_desc">
+                  Add/delete tasks with a clean interface. Great for quickly tracking daily tasks.
+                </p>
+                <div class="card-body-action">
+                  <a class="btn-border" href="#" target="_blank" data-i18n="btn_code"><i class="fas fa-code"></i> Code</a>
+                  <a class="btn-border" href="#" target="_blank" data-i18n="btn_website"><i class="fas fa-link"></i> Website</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Project 23: Vaccination Status -->
+      <div class="project javascript">
+        <div class="card">
+          <div class="card-header" style="background-image: url('images/JavaScript/COVID19 vaccin status.png');"></div>
+          <div class="card-bottom">
+            <div class="read-more">
+              <p>Vaccination Status</p>
+              <i class="fas fa-caret-up clignot"></i>
+            </div>
+            <div class="card-body">
+              <div class="card-body-box">
+                <h4 class="card-body-title">COVID-19 Vaccination Status</h4>
+                <p class="card-body-desc" data-i18n="project_vaccination_desc">
+                  Search and view vaccination data for different countries with a neat UI.
+                </p>
+                <div class="card-body-action">
+                  <a class="btn-border" href="#" target="_blank" data-i18n="btn_code"><i class="fas fa-code"></i> Code</a>
+                  <a class="btn-border" href="#" target="_blank" data-i18n="btn_website"><i class="fas fa-link"></i> Website</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Project 24: E-commerce API -->
+      <div class="project asp-net">
+        <div class="card">
+          <div class="card-header" style="background-image: url('images/Asp.Net/E-commerce app.png');"></div>
+          <div class="card-bottom">
+            <div class="read-more">
+              <p>E-commerce API</p>
+              <i class="fas fa-caret-up clignot"></i>
+            </div>
+            <div class="card-body">
+              <div class="card-body-box">
+                <h4 class="card-body-title">E-commerce API</h4>
+                <p class="card-body-desc" data-i18n="project_ecommerce_desc">
+                  An ASP.NET Core Web API with Swagger for products, orders, users and more!!
+                </p>
+                <div class="card-body-action">
+                  <a class="btn-border" href="#" target="_blank" data-i18n="btn_code"><i class="fas fa-code"></i> Code</a>
+                  <a class="btn-border" href="#" target="_blank" data-i18n="btn_website"><i class="fas fa-link"></i> Website</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Project 25: Job Application Management -->
+      <div class="project asp-net">
+        <div class="card">
+          <div class="card-header" style="background-image: url('images/Asp.Net/Job Application Management System.png');"></div>
+          <div class="card-bottom">
+            <div class="read-more">
+              <p>Job Application Management</p>
+              <i class="fas fa-caret-up clignot"></i>
+            </div>
+            <div class="card-body">
+              <div class="card-body-box">
+                <h4 class="card-body-title">Job App Management System</h4>
+                <p class="card-body-desc" data-i18n="project_job_app_desc">
+                  A multi-layer ASP.NET Core API for job posts, applications, and security.
+                </p>
+                <div class="card-body-action">
+                  <a class="btn-border" href="#" target="_blank" data-i18n="btn_code"><i class="fas fa-code"></i> Code</a>
+                  <a class="btn-border" href="#" target="_blank" data-i18n="btn_website"><i class="fas fa-link"></i> Website</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Project 26: Learning Management System -->
+      <div class="project asp-net">
+        <div class="card">
+          <div class="card-header" style="background-image: url('images/Asp.Net/LearningManagementSystem.png');"></div>
+          <div class="card-bottom">
+            <div class="read-more">
+              <p>Learning Management System</p>
+              <i class="fas fa-caret-up clignot"></i>
+            </div>
+            <div class="card-body">
+              <div class="card-body-box">
+                <h4 class="card-body-title">Learning Management System</h4>
+                <p class="card-body-desc" data-i18n="project_learning_mgmt_desc">
+                  An ASP.NET Core API for courses, enrollments, and roles with Swagger.
+                </p>
+                <div class="card-body-action">
+                  <a class="btn-border" href="#" target="_blank" data-i18n="btn_code"><i class="fas fa-code"></i> Code</a>
+                  <a class="btn-border" href="#" target="_blank" data-i18n="btn_website"><i class="fas fa-link"></i> Website</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="pill">
+      <a href="#contact"><i class="fas fa-angle-double-down"></i></a>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h1 data-i18n="contact_heading">Contact Me</h1>
+    <div class="contact-container">
+      <div class="contact-form">
+        <form action="https://formspree.io/f/movjgled" method="POST">
+          <input
+            type="text"
+            name="name"
+            placeholder="Your Name"
+            required
+            data-i18n-placeholder="contact_name_placeholder"
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="Your Email"
+            required
+            data-i18n-placeholder="contact_email_placeholder"
+          />
+          <textarea
+            name="message"
+            placeholder="Your Message"
+            required
+            data-i18n-placeholder="contact_message_placeholder"
+          ></textarea>
+          <button
+            type="submit"
+            class="btn-border"
+            data-i18n="contact_send"
+          >
+            SEND MESSAGE
+          </button>
+        </form>
+      </div>
+      
+      <div class="contact-info">
+        <h3 data-i18n="contact_get_in_touch">Get In Touch</h3>
+        <p>
+          <i class="fab fa-github"></i>
+          <a href="https://github.com/Ghaith-ch" target="_blank">https://github.com/Ghaith-ch</a>
+        </p>
+        <p>
+          <i class="fab fa-linkedin"></i>
+          <a href="https://www.linkedin.com/in/ghaith-chikh-alchabab-821502252/" target="_blank">https://www.linkedin.com/in/ghaith-chikh-alchabab-821502252/</a>
+        </p>
+        <p>
+          <i class="fas fa-envelope"></i>
+          <a href="mailto:ghaaiiith@gmail.com">ghaaiiith@gmail.com</a>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer class="footer">
+    <p data-i18n="footer_rights">© 2025 Ghaith. All Rights Reserved</p>
+  </footer>
+
+  <!-- Scroll to Top Button -->
+  <button id="scrollToTopBtn" class="scroll-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <script src="js/script.js"></script>
+  <script src="js/language.js"></script>
+
+</body>
+</html>
