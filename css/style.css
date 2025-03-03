@@ -518,8 +518,10 @@
   .projects .pill {
     bottom: -40px;
   }
-
-  
+  .project.asp-net .btn-border[data-i18n="btn_website"] {
+    pointer-events: none; 
+    opacity: 0.5;         
+  }
 
   @keyframes autoscroll {
     0% { background-position: 50% 0; }
